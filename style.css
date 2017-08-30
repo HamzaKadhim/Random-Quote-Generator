@@ -1,0 +1,54 @@
+html,
+body {
+    background-image: url(https://0.s3.envato.com/files/153292869/FractalAmbientBackground_ImagePreview.jpg);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#wrapper {
+    border: 2px solid #0B6FB1;
+    padding: 100px;
+    margin: 50px;
+    border-radius: 50px;
+    color: #135F91;
+    background-color: #DCDCDC;
+}
+
+#font {
+    font-family: Lobster, "Times New Roman";
+}
+
+.line {
+    width: 55%;
+    border-top: 3px solid #135F91;
+    padding-top: 15px;
+}
+
+#button {
+    display: block;
+    color: #135F91;
+    font-size: 5em;
+    margin-top: 50px;
+    border: 2px solid #135F91;
+}
+
+#buttonFont {
+    font-family: Cursive, Futura;
+    font-size: 1.5em;
+    padding: 15px;
+    text-shadow: 2px 2px black;
+}
+
+#button:hover {
+    background-color: rgba(255, 204, 0, 0.8);
+}
+
+#quote {
+    margin-top: 80px;
+    display: none;
+    font-family: Lobster;
+}
+
+#twitter-button {
+    margin-top: 10px;
+}
